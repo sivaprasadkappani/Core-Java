@@ -21,5 +21,18 @@ public class BoxUser {
 		// Change the content of the integerBox
 		integerBox.setContent(456);
 		System.out.println("Updated Content: " + integerBox.getContent());
+		
+		// Raw Types can be used
+		Box rawBox =  new Box<Double>(46.87);
+		System.out.println(rawBox);
+		System.out.println("Content: " + rawBox.getContent());
+		
+		/*
+		Box<Integer> rawBoxNotWork =  new Box(8.65);
+		System.out.println(rawBoxNotWork);
+		Integer element  = rawBoxNotWork.getContent();
+		System.out.println("Content: " + element);
+		*/
+		
 	}
 }

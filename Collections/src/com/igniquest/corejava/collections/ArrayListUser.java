@@ -12,12 +12,16 @@ public class ArrayListUser {
         items.add(123);             // Integer
         items.add(45.67);           // Double
         items.add(true);            // Boolean
+        
+        items.add( 2 , "Elephant" );
 
         // Print all items in the ArrayList
         System.out.println("All Items in the ArrayList:");
         for (Object item : items) {
             System.out.println(item);
         }
+        
+        
 
         // Access and print specific items by index
         System.out.println("Item at index 0: " + items.get(0)); // "Hello, World!"
