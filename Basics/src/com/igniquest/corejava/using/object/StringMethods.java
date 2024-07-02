@@ -1,4 +1,4 @@
-package com.igniquest.corejava.basics;
+package com.igniquest.corejava.using.object;
 
 public class StringMethods {
 	public static void main(String[] args) {

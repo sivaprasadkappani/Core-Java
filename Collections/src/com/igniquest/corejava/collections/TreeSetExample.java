@@ -7,7 +7,7 @@ public class TreeSetExample {
         TreeSet<Integer> treeSet = new TreeSet<>();
 
         treeSet.add(5);
-        treeSet.add(2);
+        treeSet.add(2);						
         treeSet.add(8);
         treeSet.add(1);
 
