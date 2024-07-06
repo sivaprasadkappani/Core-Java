@@ -7,6 +7,7 @@ public class BoxUser {
 		Box<Integer> integerBox = new Box<>(123);
 		System.out.println(integerBox);
 		System.out.println("Content: " + integerBox.getContent());
+		
 
 		// Create a Box to hold a String
 		Box<String> stringBox = new Box<>("Hello Generics!");
